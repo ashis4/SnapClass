@@ -13,8 +13,9 @@ def style_background_home():
 
                 .stApp div[data-testid="stColumn"]{
                     background-color:#E0E3FF !important;
-                    padding:2.5rem !important;
+                    padding:1.5rem !important;
                     border-radius: 5rem !important;
+                    max-width:300px !important;
                     }
         </style>  
 
@@ -54,12 +55,12 @@ def style_base_layout():
             }
                 
             .block-container {
-                padding-top:1.5rem !important;    
+                padding-top:0.5rem !important;    
             }
 
             h1 {
                 font-family: 'Climate Crisis', sans-serif !important;
-                font-size: 3.5rem !important;
+                font-size: 2.5rem !important;
                 line-height:1.1 1important;
                 margin-bottom:0rem !important;
             }
@@ -67,10 +68,12 @@ def style_base_layout():
 
             h2 {
                 font-family: 'Climate Crisis', sans-serif !important;
-                font-size: 2rem !important;
+                font-size: 1.7rem !important;
                 line-height:0.9 !important;
                 margin-bottom:0rem !important;
-            }
+                color: black !important;
+                text-align: center !important;
+}
                 
             h3, h4, p {
                 font-family: 'Outfit', sans-serif;    
@@ -105,7 +108,38 @@ def style_base_layout():
                 }
 
             button:hover{
-                transform :scale(1.05)}
+                transform :scale(1.05)
+                }
+
+                div[data-testid="stTextInput"] input {
+                background-color: #F1F1F1 !important;
+                color: #333333 !important;
+                }
+
+                div[data-testid="stTextInput"] label {
+                color: #333333 !important;
+                }
+
+                }
+
+                div[data-testid="stSelectbox"] label p {
+                color: black !important;
+                }
+                label[data-testid="stWidgetLabel"] {
+                color: black !important;
+                }
+                div[data-testid="stAlert"] {
+                background-color: white !important;
+                color: black !important;
+                }
+                div[data-testid="stAlert"] {
+                background-color: white !important;
+                }
+
+                div[data-testid="stAlert"] p {
+                color: black !important;
+                font-weight: 600 !important;
+                }
         </style>  
 
                 """
